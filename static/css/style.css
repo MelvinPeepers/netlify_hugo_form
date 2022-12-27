@@ -52,6 +52,10 @@ form {
     margin: 30px auto 0 auto;
 }
 
+input, select, textarea {
+    color: #fff;
+}
+
 .row {
     width: 100%;
     display: grid;
