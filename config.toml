@@ -1,4 +1,3 @@
 baseURL = ""
 languageCode = "en-us"
 title = "Netlify Forms with Hugo"
-theme = "PaperMod"
