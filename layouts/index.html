@@ -21,9 +21,11 @@
 
         <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
             <div class="row">
+
                 <p class="hidden">
                     <label>Don't fill this out if you're human: (ignore) <input name="bot-field"></label>
                 </p>
+                
                 <div class="column">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" placeholder="Full name here">
@@ -47,7 +49,6 @@
                 <div class="column">
                     <label for="message">Message</label>
                     <textarea id="message" name="message" placeholder="Leave your message here"></textarea>
-
                 </div>
             </div>
             <button type="submit">Submit</button>
